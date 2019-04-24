@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/dvcastlayer -n .:../src $*
+# for shared lib, use: opp_run -l ../src/dvcastlayer -n .:../src $*
